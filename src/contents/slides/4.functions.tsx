@@ -2,7 +2,7 @@ import { h } from "../../h";
 import { Slide } from './slide';
 
 export default (
-  <Slide index={2} id="functions">
+  <Slide index={2} id="functions" template={false}>
     <h1>Functions</h1>
     <div class="example-group">
       <h2>Sync</h2>
@@ -39,6 +39,7 @@ console.log(await GetExample())
 )
 
 async function GetExample() {
+  if (typeof fetch === "undefined") return "";
   const response = await fetch("/resource.txt");
   return response.text();
 }

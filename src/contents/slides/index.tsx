@@ -14,6 +14,13 @@ import Slide11 from "./11.clock-diagram";
 import { Collector } from 'microtask-collector';
 import { Template } from "../../template";
 
+declare global {
+
+  interface Window {
+    prerender?: boolean;
+  }
+}
+
 export default (
   <Slides>
     <Slide0 />
@@ -82,7 +89,7 @@ async function *Slides(options: unknown, child?: VNode) {
       );
     }
 
-    if (typeof window === "undefined") {
+    if (typeof window === "undefined" || window.prerender) {
       index += 1;
       if (!indexedSlides[index]) {
         break;

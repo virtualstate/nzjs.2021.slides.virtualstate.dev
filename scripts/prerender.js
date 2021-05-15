@@ -3,6 +3,8 @@ import { promises as fs } from "node:fs";
 import { dirname, join } from 'node:path';
 import JSDOM from "jsdom";
 
+window.prerender = true;
+
 // Create a new root element
 const root = document.createElement("div");
 root.id = "root";
