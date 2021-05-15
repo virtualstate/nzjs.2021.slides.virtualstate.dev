@@ -10,7 +10,11 @@ import Slide5 from "./5.objects";
 import Slide6 from "./6.arrays";
 import Slide7 from "./7.loops";
 import Slide8 from "./8.promises";
-import Slide11 from "./11.clock-diagram";
+import Slide9 from "./9.async-functions";
+import Slide10 from "./10.iterators";
+import Slide11 from "./11.async-iterators";
+import Slide12 from "./12.iterator-loops";
+import Slide13 from "./13.clock-diagram";
 import { Collector } from 'microtask-collector';
 import { Template } from "../../template";
 
@@ -32,7 +36,11 @@ export default (
     <Slide6 />
     <Slide7 />
     <Slide8 />
+    <Slide9 />
+    <Slide10 />
     <Slide11 />
+    <Slide12 />
+    <Slide13 />
   </Slides>
 )
 

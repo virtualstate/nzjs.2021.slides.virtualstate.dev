@@ -2,7 +2,7 @@ import { h } from "../../h";
 import { Slide } from './slide';
 
 export default (
-  <Slide index={11} id="clock-diagram">
+  <Slide index={13} id="clock-diagram">
     <h1>7 Segment Digit</h1>
     <div class="example-group">
       <h2>Schematic</h2>
