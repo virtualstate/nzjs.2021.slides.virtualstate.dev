@@ -1,5 +1,5 @@
 import { h } from "../../h";
-import { VNode } from '@opennetwork/vnode';
+import { VNode } from '@virtualstate/x';
 import { Slide, SlideTokenVNode } from './slide';
 import Slide0 from "./0.intro";
 import Slide1 from "./1.primitives";

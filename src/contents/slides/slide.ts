@@ -1,4 +1,4 @@
-import { createToken, TokenVNodeFn, TokenVNode } from '@opennetwork/vnode';
+import { createToken, TokenVNodeFn, TokenVNode } from '@virtualstate/x';
 
 export interface SlideOptions {
   index: number;
