@@ -3,6 +3,6 @@ import Slides from "./slides";
 
 export const SiteContents = (
   <main>
-    <Slides />
+    {Slides}
   </main>
 );

@@ -2,20 +2,27 @@ import { h } from "../../h";
 import { VNode } from '@virtualstate/x';
 import { Slide, SlideTokenVNode } from './slide';
 import * as Introduction from "./introduction";
+import * as Consume from "./consume";
+import * as Produce from "./produce";
+import * as Additional from "./additional-points";
+import * as Bring from "./bring-your-own";
+import * as Other from "./other-things";
+import * as Bits from "./bits-and-bobs";
+import * as Closing from "./closing";
 import { Collector } from 'microtask-collector';
 import { Template } from "../../template";
 
 export const SlideMap = {
-  ...Introduction
+  ...Introduction,
+  ...Consume,
+  ...Produce,
+  ...Additional,
+  ...Bring,
+  ...Other,
+  ...Bits,
+  ...Closing
 }
 export const AllSlides = Object.values(SlideMap);
-
-declare global {
-
-  interface Window {
-    prerender?: boolean;
-  }
-}
 
 export default (
   <Slides>
@@ -33,6 +40,14 @@ async function last<T>(iterable: AsyncIterable<T>): Promise<T | undefined> {
   } while (!result.done);
   return value;
 }
+
+declare global {
+
+  interface Window {
+    prerender?: boolean;
+  }
+}
+
 
 async function *Slides(options: unknown, child?: VNode) {
   if (!child?.children) {

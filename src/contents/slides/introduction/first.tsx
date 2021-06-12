@@ -1,7 +1,7 @@
 import { h } from "../../../h";
 import { Slide, SlideTokenVNode } from '../slide';
 
-export const IntroductionFirst: SlideTokenVNode = (
+export const IntroductionFirst = (
   <Slide index={0} id="intro">
     <h1>A fresh take on JSX</h1>
     <div class="author">

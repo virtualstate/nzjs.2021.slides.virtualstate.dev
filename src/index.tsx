@@ -1,6 +1,7 @@
 import { render, DOMVContext, createTimeline, Timeline } from '@virtualstate/dom';
 import { SiteBody } from './site';
 import { h } from "./h";
+import { isVNode } from '@virtualstate/fringe';
 
 async function run() {
 
@@ -19,8 +20,12 @@ async function run() {
     //   reportTimeline
     // );
 
+    if (!isVNode(SiteBody)) {
+        throw new Error("Expected SiteBody to be a VNode");
+    }
+
     await render(
-      <SiteBody />,
+      SiteBody,
       context
     );
 

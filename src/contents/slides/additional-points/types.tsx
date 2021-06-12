@@ -1,8 +1,8 @@
 import { h } from "../../../h";
 import { Slide, SlideTokenVNode } from '../slide';
 
-export const Logging  = (
-  <Slide index={1003} id="logging">
-    <h1>Logging</h1>
+export const AdditionalTypes = (
+  <Slide index={2001} id="additional-types">
+    <h1>Types</h1>
   </Slide>
 )
