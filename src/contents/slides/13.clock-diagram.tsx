@@ -4,6 +4,7 @@ import { Slide } from './slide';
 export default (
   <Slide index={13} id="clock-diagram">
     <h1>7 Segment Digit</h1>
+    <div class="examples">
     <div class="example-group">
       <h2>Schematic</h2>
       <img src="/7 Segment Sch.jpg" alt="Schematic for 7 segment digit" />
@@ -62,6 +63,7 @@ next b2
 
 goto loopa`}
       </pre>
+    </div>
     </div>
   </Slide>
 )
