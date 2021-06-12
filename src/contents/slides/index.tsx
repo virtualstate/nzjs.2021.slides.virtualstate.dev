@@ -1,22 +1,14 @@
 import { h } from "../../h";
 import { VNode } from '@virtualstate/x';
 import { Slide, SlideTokenVNode } from './slide';
-import Slide0 from "./0.intro";
-import Slide1 from "./1.primitives";
-import Slide2 from "./2.math";
-import Slide3 from "./3.logic";
-import Slide4 from "./4.functions";
-import Slide5 from "./5.objects";
-import Slide6 from "./6.arrays";
-import Slide7 from "./7.loops";
-import Slide8 from "./8.promises";
-import Slide9 from "./9.async-functions";
-import Slide10 from "./10.iterators";
-import Slide11 from "./11.async-iterators";
-import Slide12 from "./12.iterator-loops";
-import Slide13 from "./13.clock-diagram";
+import * as Introduction from "./introduction";
 import { Collector } from 'microtask-collector';
 import { Template } from "../../template";
+
+export const SlideMap = {
+  ...Introduction
+}
+export const AllSlides = Object.values(SlideMap);
 
 declare global {
 
@@ -27,20 +19,7 @@ declare global {
 
 export default (
   <Slides>
-    <Slide0 />
-    <Slide1 />
-    <Slide2 />
-    <Slide3 />
-    <Slide4 />
-    <Slide5 />
-    <Slide6 />
-    <Slide7 />
-    <Slide8 />
-    <Slide9 />
-    <Slide10 />
-    <Slide11 />
-    <Slide12 />
-    <Slide13 />
+    {...AllSlides}
   </Slides>
 )
 
