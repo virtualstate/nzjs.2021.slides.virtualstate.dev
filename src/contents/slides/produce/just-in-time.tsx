@@ -1,5 +1,5 @@
 import { h } from "../../../h";
-import { Slide, SlideTokenVNode } from '../slide';
+import { Slide } from '../slide';
 
 export const ProduceJustInTime = (
   <Slide index={2004} id="produce-just-in-time">

@@ -1,8 +1,10 @@
 import { h } from "../../../h";
-import { Slide, SlideTokenVNode } from '../slide';
+import { Slide } from '../slide';
+import { _204_ExampleInformation } from '@virtualstate/examples/lib/information.built';
 
 export const ProduceAsyncGenerators = (
   <Slide index={2007} id="produce-async-generators">
     <h1>Async Generators</h1>
+    <pre class="code">{_204_ExampleInformation.cleanerSource}</pre>
   </Slide>
 )

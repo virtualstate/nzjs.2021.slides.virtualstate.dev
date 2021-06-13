@@ -6,9 +6,10 @@ export const IntroductionFirst = (
     <h1>A fresh take on JSX</h1>
     <div class="author">
       <h2>Fabian Cook</h2>
+      <h3>Axiom Applied Technologies and Development</h3>
       <div class="logos">
-        <img src="/Clearpoint-logo_nov19.png" width={151} />
-        <img src="/contact-energy.svg" width={151} />
+        <img src="/clearpoint-logo.svg" width={175} />
+        <img src="/contact-energy.svg" width={175} />
       </div>
     </div>
   </Slide>

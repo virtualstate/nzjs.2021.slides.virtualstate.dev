@@ -1,5 +1,5 @@
 import { h } from "../../../h";
-import { Slide, SlideTokenVNode } from '../slide';
+import { Slide } from '../slide';
 
 export const ProduceJavaScriptFirst = (
   <Slide index={2001} id="produce-javascript-first">

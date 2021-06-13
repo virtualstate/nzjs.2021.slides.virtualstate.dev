@@ -54,14 +54,14 @@ pre {
   overflow-x: auto;
   overflow-y: hidden;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, .05);
+  background-color: white;
 }
 
 span.code {
   border: none;
   padding: 0 0.25em;
   box-sizing: content-box;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: white;
 }
 
 .example-output {
@@ -167,4 +167,13 @@ a, button {
   margin: 3em;
   object-position: center;
   object-fit: contain;
+}
+
+#slide__0_intro h2 + h3 {
+  margin-top: -2em;
+  margin-bottom: 1em;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: .7em;
 }
