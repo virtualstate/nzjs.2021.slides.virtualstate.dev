@@ -185,6 +185,19 @@ a, button {
   align-items: flex-start;
 }
 
+.row.center {
+  justify-content: center;
+  align-items: center;
+}
+
 .row > pre {
   margin: .5em;
+}
+
+hr {
+  min-width: 50vw;
+  border-top: 0;
+  border-color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  margin-top: 0.5em;
 }
