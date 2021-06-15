@@ -7,8 +7,7 @@ import {
   isAttributesOptions
 } from "@virtualstate/dom";
 
-export function h<O extends object = object>(source: Source<O>, options?: O, ...children: VNodeRepresentationSource[]): VNode
-export function h(source: Source, options?: object, ...children: VNodeRepresentationSource[]): VNode {
+export function h(source: Source, options?: Record<string, unknown>, ...children: VNodeRepresentationSource[]): VNode {
   if (source === "fragment") {
     return h(Fragment, options, ...children);
   }
