@@ -11,6 +11,7 @@ import * as Bits from "./bits-and-bobs";
 import * as Closing from "./closing";
 import { Collector } from 'microtask-collector';
 import { Template } from "../../template";
+import ClassNames from "classnames";
 
 export const SlideMap = {
   ...Introduction,
@@ -77,7 +78,7 @@ async function *Slides(options: unknown, child?: VNode) {
   do {
     const id = `slide__${index}_${indexedSlides[index].options.id}`
     const slide = (
-      <div class="slide" id={id}>
+      <div class={ClassNames("slide", indexedSlides[index].options.class)} id={id}>
         {indexedSlides[index]}
       </div>
     );
@@ -85,7 +86,7 @@ async function *Slides(options: unknown, child?: VNode) {
       yield slide;
     } else {
       yield (
-        <Template id={id}>
+        <Template id={`${id}_template`}>
           {slide}
         </Template>
       );

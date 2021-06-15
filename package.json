@@ -23,6 +23,7 @@
     "@virtualstate/hooks-extended": "^2.4.10",
     "@virtualstate/union": "^2.4.10",
     "@virtualstate/x": "^2.4.10",
+    "classnames": "^2.3.1",
     "fp-ts": "^2.10.4",
     "io-ts": "^2.2.16",
     "iterable": "^5.7.0",

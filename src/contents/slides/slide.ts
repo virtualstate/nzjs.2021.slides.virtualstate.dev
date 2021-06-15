@@ -4,6 +4,7 @@ export interface SlideOptions {
   index: number;
   id: string;
   template?: false;
+  class?: string;
 }
 export const SlideSymbol = Symbol("Slide");
 export type SlideTokenVNode = TokenVNode<typeof SlideSymbol, SlideOptions>;
