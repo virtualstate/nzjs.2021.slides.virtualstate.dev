@@ -74,12 +74,16 @@ async function *Slides(options: unknown, child?: VNode) {
 
   listen();
 
+
+
   let nextChange;
   do {
     const id = `slide__${index}_${indexedSlides[index].options.id}`
     const slide = (
       <div class={ClassNames("slide", indexedSlides[index].options.class)} id={id}>
-        {indexedSlides[index]}
+        <div>
+          {indexedSlides[index]}
+        </div>
       </div>
     );
     if (indexedSlides[index].options.template === false) {

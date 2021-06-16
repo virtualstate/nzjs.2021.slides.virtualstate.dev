@@ -4,8 +4,7 @@ import { _402_ExampleInformation, _403_ExampleInformation } from '@virtualstate/
 
 export const ProduceClassChildrenOptions = (
   <Slide index={2009} id="produce-class-children-options">
-    <h1>Class - Options & Children</h1>
+    <h1>Class - Options</h1>
     <pre class="code">{_402_ExampleInformation.cleanerSource}</pre>
-    <pre class="code">{_403_ExampleInformation.cleanerSource}</pre>
   </Slide>
 )
