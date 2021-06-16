@@ -7,13 +7,14 @@ export const ConsumeIndividual4 = (
       <pre class="code">
         {`
 const product = (
-  <Product
+  <product
+    name="🪕 The banjo cut" 
     sku="🪕"
   >
-    <Brand 
+    <brand 
       name="🔮 Magic Hairstyles"
     />
-  </Product>
+  </product>
 );
 `.trim()}
       </pre>
@@ -31,7 +32,7 @@ for await (const children of product.children) {
 {
   children: [
     {
-      source: "Brand",
+      source: "brand",
       options: {
         name: "🔮 Magic Hairstyles"
       }

@@ -6,3 +6,4 @@ export * from "./types-fragments";
 export * from "./types-functions";
 export * from "./types-promise";
 export * from "./types-async";
+export * from "./javascript-first";

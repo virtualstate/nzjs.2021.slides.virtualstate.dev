@@ -6,7 +6,7 @@ export const ConsumeIndividual1 = (
     <div class="row">
       <pre class="code">
         {`
-<Product 
+<product 
   name="🪕 The banjo cut" 
   sku="🪕" 
 />
@@ -14,19 +14,20 @@ export const ConsumeIndividual1 = (
       </pre>
       <pre class="code">
         {`
-<Brand 
+<brand 
   name="🔮 Magic Hairstyles"
 />`.trim()}
       </pre>
       <pre class="code">
         {`
-<Product
+<product
+  name="🪕 The banjo cut" 
   sku="🪕"
 >
-  <Brand 
+  <brand 
     name="🔮 Magic Hairstyles"
    />
-</Product>
+</product>
 `.trim()}
       </pre>
     </div>

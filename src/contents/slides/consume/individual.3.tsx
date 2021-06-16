@@ -7,13 +7,14 @@ export const ConsumeIndividual3 = (
       <pre class="code">
         {`
 const product = (
-  <Product
+  <product
+    name="🪕 The banjo cut" 
     sku="🪕"
   >
-    <Brand 
+    <brand 
       name="🔮 Magic Hairstyles"
     />
-  </Product>
+  </product>
 );
 `.trim()}
       </pre>
@@ -28,8 +29,9 @@ console.log({ product })
         {`
 {
   product: {
-    source: "Product",
+    source: "product",
     options: {
+      name: "🪕 The banjo cut",
       sku: "🪕"
     },
     children: AsyncIterable

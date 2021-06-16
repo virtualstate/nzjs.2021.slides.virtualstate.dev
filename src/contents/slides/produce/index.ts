@@ -1,4 +1,3 @@
-export * from "./javascript-first";
 export * from "./async-functions";
 export * from "./async-generators";
 export * from "./classes";

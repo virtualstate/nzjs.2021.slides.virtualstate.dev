@@ -7,13 +7,14 @@ export const Logging  = (
       <pre class="code">
         {`
 const product = (
-  <Product
+  <product
+    name="🪕 The banjo cut" 
     sku="🪕"
   >
-    <Brand 
+    <brand 
       name="🔮 Magic Hairstyles"
     />
-  </Product>
+  </product>
 );
 `.trim()}
       </pre>
@@ -29,7 +30,7 @@ async function * read(node) {
   }
 }
 
-for await (const node of read(product)) {
+for await (const node of read(<>{product}</>)) {
   console.log({ node });
 }
 `.trim()
@@ -42,8 +43,9 @@ for await (const node of read(product)) {
       {`
 {
   node: {
-    source: "Product",
+    source: "product",
     options: {
+      name: "🪕 The banjo cut",
       sku: "🪕"
     },
     children: AsyncIterable
@@ -55,7 +57,7 @@ for await (const node of read(product)) {
       {`
 {
   node: {
-    source: "Brand",
+    source: "brand",
     options: {
       name: "🔮 Magic Hairstyles"
     }

@@ -11,8 +11,17 @@ export const ConsumeIndividual = (
         {
           `
 <Component>
- <Child />
+ <something />
 </Component>
+          `.trim()}
+      </pre>
+      <pre class="code">
+        {
+          `
+<>
+ <some />
+ <thing />
+</>
           `.trim()}
       </pre>
       <pre class="code">
@@ -34,6 +43,7 @@ export const ConsumeIndividual = (
  {[1, 2, 3]}
  <SomeOtherComponent />
  {"Hello! 👋"}
+ <something />
 </Component>
           `.trim()}
       </pre>
