@@ -205,3 +205,10 @@ hr {
 h1 {
   text-align: center;
 }
+
+.code.lines {
+  text-decoration: underline;
+  text-underline-offset: 0.375em;
+  text-underline-mode: n;
+  font-weight: bold;
+}

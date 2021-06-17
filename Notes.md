@@ -6,3 +6,4 @@
 - Type assertions
 - Structure assertions
 - Complete type coverage
+- Both lazy and eager
