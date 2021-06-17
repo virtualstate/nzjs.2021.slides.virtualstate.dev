@@ -1,4 +1,8 @@
 - 100% chance of a measurement
 - Universal
 - Converges, No longer in an unknown state
-
+- Common tooling, common interface
+- Complete customisation
+- Type assertions
+- Structure assertions
+- Complete type coverage
