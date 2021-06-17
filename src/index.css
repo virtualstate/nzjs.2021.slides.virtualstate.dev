@@ -208,7 +208,8 @@ h1 {
 
 .code.lines {
   text-decoration: underline;
-  text-underline-offset: 0.375em;
-  text-underline-mode: n;
+  text-underline-offset: 0.5em;
+  text-decoration-style: dotted;
+  line-height: 1.75em;
   font-weight: bold;
 }

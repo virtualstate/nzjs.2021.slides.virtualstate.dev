@@ -1,5 +1,5 @@
 import { h } from "../../../h";
-import { Slide, SlideTokenVNode } from '../slide';
+import { Slide } from '../slide';
 import { _702_ExampleInformation } from '@virtualstate/examples/lib/information.built';
 
 function padLines(text: string): string {
@@ -9,7 +9,7 @@ function padLines(text: string): string {
 }
 
 const definitions = _702_ExampleInformation.cleanerSource.split("\n").slice(0, 22).join("\n").trim().split("\n");
-const symbolLines = definitions.filter(line => line.includes("Symbol(\""))
+const symbolLines = definitions.filter(line => line.includes("Symbol = Symbol(\""))
 const symbols = symbolLines
   .reverse()
   .map(line => {
@@ -24,8 +24,7 @@ const withoutSymbols = definitions
   .map(line => symbols.reduce(
     (line, [name, statement]) => line.replace(name, statement),
     line
-  ))
-
+  ));
 
 export const AdditionalTokens2 = (
   <Slide index={2101.2} id="additional-tokens-2">
