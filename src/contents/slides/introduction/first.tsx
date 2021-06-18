@@ -8,8 +8,8 @@ export const IntroductionFirst = (
       <h2>Fabian Cook</h2>
       <h3>Axiom Applied Technologies and Development</h3>
       <div class="logos">
-        <img src="/clearpoint-logo.svg" width={175} />
-        <img src="/contact-energy.svg" width={175} />
+        <img src="/clearpoint-logo.svg" width={220} />
+        <img src="/contact-rainbow.png" width={220} />
       </div>
     </div>
   </Slide>
