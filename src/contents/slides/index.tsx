@@ -19,7 +19,7 @@ export const SlideMap = {
   ...Produce,
   ...Additional,
   ...Bring,
-  ...Other,
+  // ...Other,
   ...Bits,
   ...Closing
 }

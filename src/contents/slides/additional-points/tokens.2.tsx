@@ -1,8 +1,8 @@
 import { h } from "../../../h";
 import { Slide } from '../slide';
-import { _702_ExampleInformation } from '@virtualstate/examples/lib/information.built';
+import { _702_ExampleInformation } from '@virtualstate/examples';
 
-function padLines(text: string): string {
+export function padLines(text: string): string {
   const lines = text.split("\n");
   const max = lines.reduce((max, line) => Math.max(max, line.length), 0);
   return lines.map(line => line.padEnd(max, " ")).join("\n");

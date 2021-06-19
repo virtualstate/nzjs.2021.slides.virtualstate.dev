@@ -11,3 +11,4 @@ export * from "./instant-classes";
 export * from "./just-in-time";
 export * from "./promises";
 export * from "./shared-classes";
+export * from "./shared-classes-async";

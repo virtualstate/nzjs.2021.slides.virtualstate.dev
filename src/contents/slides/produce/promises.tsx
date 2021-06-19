@@ -1,6 +1,6 @@
 import { h } from "../../../h";
 import { Slide } from '../slide';
-import { _301_ExampleInformation, _302_ExampleInformation } from '@virtualstate/examples/lib/information.built';
+import { _301_ExampleInformation, _302_ExampleInformation } from '@virtualstate/examples';
 
 export const ProducePromises = (
   <Slide index={2005} id="produce-promises">

@@ -1,6 +1,6 @@
 import { h } from "../../../h";
 import { Slide, SlideTokenVNode } from '../slide';
-import { _601_ExampleInformation } from '@virtualstate/examples/lib/information.built';
+import { _601_ExampleInformation } from '@virtualstate/examples';
 
 export const AdditionalTypesScalars = (
   <Slide index={2205} id="additional-types-scalars">

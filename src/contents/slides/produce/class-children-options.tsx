@@ -1,6 +1,6 @@
 import { h } from "../../../h";
 import { Slide } from '../slide';
-import { _402_ExampleInformation, _403_ExampleInformation } from '@virtualstate/examples/lib/information.built';
+import { _402_ExampleInformation, _403_ExampleInformation } from '@virtualstate/examples';
 
 export const ProduceClassChildrenOptions = (
   <Slide index={2009} id="produce-class-children-options">

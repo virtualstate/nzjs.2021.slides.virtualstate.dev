@@ -1,6 +1,6 @@
 import { h } from "../../../h";
 import { Slide, SlideTokenVNode } from '../slide';
-import { _701_ExampleInformation } from '@virtualstate/examples/lib/information.built';
+import { _701_ExampleInformation } from '@virtualstate/examples';
 
 export const AdditionalTokens = (
   <Slide index={2101} id="additional-tokens">

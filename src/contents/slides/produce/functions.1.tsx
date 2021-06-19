@@ -1,6 +1,6 @@
 import { h } from "../../../h";
 import { Slide } from '../slide';
-import { _206_ExampleInformation } from '@virtualstate/examples/lib/information.built';
+import { _206_ExampleInformation } from '@virtualstate/examples';
 
 export const ProduceFunctions1 = (
   <Slide index={2002.1} id="produce-functions-1">
