@@ -24,6 +24,9 @@ const directory = dirname(new URL(import.meta.url).pathname);
 const indexPath = join(directory, "../build/index.html");
 const index = await fs.readFile(indexPath, "utf8");
 
+// Create a new page that can be requested, this won't be prerendered
+await fs.writeFile(join(directory, "../build/all.html"), index);
+
 const target = new JSDOM.JSDOM(index);
 
 // Copy over generated templates

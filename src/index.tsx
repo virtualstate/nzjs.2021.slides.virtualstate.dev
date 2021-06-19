@@ -23,7 +23,7 @@ async function run() {
         throw new Error("Expected SiteBody to be a VNode");
     }
 
-    if (location.pathname === "/all") {
+    if (typeof window.location !== "undefined" && window.location.pathname === "/all") {
         const elements = await Promise.all(
           AllSlides
             .slice()
