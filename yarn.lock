@@ -125,58 +125,58 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@virtualstate/dom@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/dom/-/dom-2.14.2.tgz#d2487bb5f60c523029b2487d36a6e95108be65d3"
-  integrity sha512-F9PaXmZ5zBTJ/fFBC+impzaDjouFQNvK1TSQtq8NvMhbNe7V8KEOvDEz3c613RJ8NCAkwsS1KwHNlyPoEZMZgQ==
+"@virtualstate/dom@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/dom/-/dom-2.14.4.tgz#f288a4b88d028f4ffcf57361f70ff52cc9c3da63"
+  integrity sha512-i9xuKaapZqeuSLuatJSvEGhqCyLg10L8fSChhmbQx4affvPxWjQOq4Pv70SQwWukX8JnaUGnlBUee/5gMgxtjw==
   dependencies:
-    "@virtualstate/fringe" "^2.14.2"
-    "@virtualstate/hooks" "^2.14.2"
-    "@virtualstate/union" "^2.14.2"
-    "@virtualstate/x" "^2.14.2"
+    "@virtualstate/fringe" "^2.14.4"
+    "@virtualstate/hooks" "^2.14.4"
+    "@virtualstate/union" "^2.14.4"
+    "@virtualstate/x" "^2.14.4"
     iterable "^5.6.0"
     microtask-collector "^3.1.0"
 
-"@virtualstate/examples@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/examples/-/examples-2.14.2.tgz#0d3ce6c12e1a2e8d7d424049db12b14e35f2b465"
-  integrity sha512-8fs0S+pL4mn+R15t4jub08j1IVAH16PbFrF0XP/vQIFABcDxY5ZwrI19bzQHIQQyNWjL9D/y+KU8+mXWbkAqbg==
+"@virtualstate/examples@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/examples/-/examples-2.14.4.tgz#1fd4cda6b579e9fcc0eb8ece282a0d06644dcf94"
+  integrity sha512-An91QbvGo87bFRzs4ZvTtl/D+jzf1uGRI6TekSwgPTj6C+WNcOYhAcj2wVCU0A3bAUCHDJZdL/uWqobBFB8JIw==
   dependencies:
-    "@virtualstate/fringe" "^2.14.2"
-    "@virtualstate/hooks" "^2.14.2"
-    "@virtualstate/union" "^2.14.2"
-    "@virtualstate/x" "^2.14.2"
+    "@virtualstate/fringe" "^2.14.4"
+    "@virtualstate/hooks" "^2.14.4"
+    "@virtualstate/union" "^2.14.4"
+    "@virtualstate/x" "^2.14.4"
     iterable "^5.6.0"
     microtask-collector "^3.1.0"
 
-"@virtualstate/fringe@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/fringe/-/fringe-2.14.2.tgz#f191d23806e4d44bd2847b79e9a0dfde105b89fd"
-  integrity sha512-7FjMlEIFfxS3dB+ONQT0MtTredeAzBKu4VNIzMwjbro0BBG6ExMOOKeDIjy0jUUpvBcEOd0NdHkkg/EFzyfv7g==
+"@virtualstate/fringe@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/fringe/-/fringe-2.14.4.tgz#d8c91ef7681000cdd2162ce62a4083aed5d75816"
+  integrity sha512-c5bsMea4u/k3bicVKFzlyFjAx+H/cpf8Dj25XJUeixYaRk0yNL8ZmWIKUJOsWEPrNg1XdzyTGSIZ6ROW4siLnQ==
 
-"@virtualstate/hooks-extended@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/hooks-extended/-/hooks-extended-2.14.2.tgz#9b0f27b9fbdd52382e709db080f312bcca034d9c"
-  integrity sha512-aFr0a7fUM0T9ceNqaOQZxjzxY6UKDeS6rdsoe9WEgi8mpBTzU/5aFz/yxg9opqjmS87yS2TcJUqc/hlve79Jpg==
+"@virtualstate/hooks-extended@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/hooks-extended/-/hooks-extended-2.14.4.tgz#86d42943f54c6dc0b1bb1ad8996a53087eabdfba"
+  integrity sha512-eUE9NgO6vwGgcSZopVK10+1U21vQJ4PlR/UwXv9nPV8AqJwY+vKoDBFaLdfxw4P7343lUyeOyLTmuLo4eEFBWQ==
 
-"@virtualstate/hooks@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/hooks/-/hooks-2.14.2.tgz#74cff92f634ca5a8c163cd3436d5d87f4b5e714e"
-  integrity sha512-AGjEo04JiPVNntFIf7JKcchx8khC9Wp1ut55WqbtVZ4kwyfKxDOa1bdxFV3KJIIdgzOLZ8xUxAE8gHuBJagIyg==
+"@virtualstate/hooks@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/hooks/-/hooks-2.14.4.tgz#d4a5126ab410f6bd8a1cad029e30dda77a9023c8"
+  integrity sha512-44to0BMwkubOglECE/aQVyAfokh0F7p1IaCt6iEatc1/KVWvPNzIfhFKZLTA3PjGk6+b4eE4nK9Kaw6uxjDzeg==
 
-"@virtualstate/union@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/union/-/union-2.14.2.tgz#29f7b70067248f31262915afb87821bac5cc1c61"
-  integrity sha512-SDqpwXuqh2JoO1FZVt10TKBaACH1d3gNvCt4cswOhv4Dk+sgpXXPtMwKXruih3ZuA7qATcVvOHqfPE53o1m/CA==
+"@virtualstate/union@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/union/-/union-2.14.4.tgz#65d11d72bf8912fca81a6a560e97bee4e959ba39"
+  integrity sha512-p3XSJD2aEAme/BmCe+Nz/oQRFkZvWkjVhgd8MUKF7qCrL5WAdVen8Y1pddsrKmHfzSp/pg5asDzyl6ws2ye2dA==
 
-"@virtualstate/x@^2.14.2":
-  version "2.14.2"
-  resolved "https://registry.npmjs.org/@virtualstate/x/-/x-2.14.2.tgz#de52cf981e529e0d1db2f0cc7ef9c6a4f58d46cc"
-  integrity sha512-+kwqvBSMGb3HoIAgfyrEhCcDfRgv8kSRXFlXDUsELrfUA7iob5Nu7GJ7Kl2H2+Eue8vsKxP7VFlLMT23gFPdgg==
+"@virtualstate/x@^2.14.4":
+  version "2.14.4"
+  resolved "https://registry.npmjs.org/@virtualstate/x/-/x-2.14.4.tgz#7b85fac037565b3efa425b72cb467f4a6f260158"
+  integrity sha512-tLuloaPB9JYmW9s4fsAY+Rl2calsvvcJxymv/yH2o6Sow7M0epm2dtJr1XXqq+tGTkmWu3Mtogwwew/B29Gzyw==
   dependencies:
-    "@virtualstate/fringe" "^2.14.2"
-    "@virtualstate/hooks" "^2.14.2"
-    "@virtualstate/union" "^2.14.2"
+    "@virtualstate/fringe" "^2.14.4"
+    "@virtualstate/hooks" "^2.14.4"
+    "@virtualstate/union" "^2.14.4"
     iterable "^5.6.0"
     microtask-collector "^3.1.0"
 

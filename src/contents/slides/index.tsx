@@ -23,7 +23,8 @@ export const SlideMap = {
   ...Bits,
   ...Closing
 }
-export const AllSlides = Object.values(SlideMap);
+export const AllSlides = Object.values(SlideMap)
+  .filter(Slide.is);
 
 export default (
   <Slides>
