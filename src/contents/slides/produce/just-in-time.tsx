@@ -17,7 +17,7 @@ export const ProduceJustInTime = (
         <div class="row stretch">
         <div class="column">
       <pre class="code">{`
-🟢
+🎾
       `.trim()}</pre>
           <pre class="code">{`
 ⏭️
@@ -33,7 +33,7 @@ export const ProduceJustInTime = (
         &nbsp;
           <div class="column">
           <pre class="code">{`
-🪁
+🐸
 💿
       `.trim()}</pre>
           <pre class="code">{`
@@ -50,9 +50,9 @@ export const ProduceJustInTime = (
           <div class="column">
 
       <pre class="code">{`
-🟢
+🎾
 
-🪁
+🐸
 💿
 
 ⏭️

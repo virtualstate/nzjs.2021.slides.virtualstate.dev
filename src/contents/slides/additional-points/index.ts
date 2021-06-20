@@ -8,4 +8,5 @@ export * from "./types-children";
 
 export * from "./tokens";
 export * from "./tokens.2";
+export * from "./tokens.3";
 
