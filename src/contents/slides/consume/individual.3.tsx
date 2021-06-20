@@ -8,8 +8,8 @@ export const ConsumeIndividual3 = (
         {`
 const product = (
   <product
-    name="🪕 The banjo cut" 
-    sku="🪕"
+    name="🐦 The bird" 
+    sku="🐦"
   >
     <brand 
       name="🔮 Magic Hairstyles"
@@ -30,8 +30,8 @@ console.log({ product })
   product: {
     source: "product",
     options: {
-      name: "🪕 The banjo cut",
-      sku: "🪕"
+      name: "🐦 The bird",
+      sku: "🐦"
     },
     children: AsyncIterable
   }

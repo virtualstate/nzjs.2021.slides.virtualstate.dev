@@ -7,8 +7,8 @@ export const ConsumeIndividual1 = (
       <pre class="code">
         {`
 <product 
-  name="🪕 The banjo cut" 
-  sku="🪕" 
+  name="🐦 The bird" 
+  sku="🐦" 
 />
 `.trim()}
       </pre>
@@ -21,8 +21,8 @@ export const ConsumeIndividual1 = (
       <pre class="code">
         {`
 <product
-  name="🪕 The banjo cut" 
-  sku="🪕"
+  name="🐦 The bird" 
+  sku="🐦"
 >
   <brand 
     name="🔮 Magic Hairstyles"

@@ -8,8 +8,8 @@ export const ConsumeIndividual4 = (
         {`
 const product = (
   <product
-    name="🪕 The banjo cut" 
-    sku="🪕"
+    name="🐦 The bird" 
+    sku="🐦"
   >
     <brand 
       name="🔮 Magic Hairstyles"
