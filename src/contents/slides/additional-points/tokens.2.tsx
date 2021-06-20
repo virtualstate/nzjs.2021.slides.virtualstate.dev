@@ -22,7 +22,7 @@ const symbols = symbolLines
 const withoutSymbols = definitions
   .filter(line => !symbolLines.includes(line))
   .map(line => symbols.reduce(
-    (line, [name, statement]) => line.replace(name, statement),
+    (line, [name, statement]) => line.replace(name, statement.replace(/Symbol\(("[^"]+")\)/, "$1")),
     line
   ));
 
@@ -32,9 +32,10 @@ export const AdditionalTokens2 = (
     <div class="row center">
       <pre class="code">{withoutSymbols.join("\n").trim()}</pre>
       <pre class="code">{_702_ExampleInformation.cleanerSource.split("\n").slice(23).join("\n").trim()}</pre>
-      <pre class="code lines">
+      <div class="state-output">
+        <pre class="code lines">
         {
-padLines(`
+          padLines(`
 <📦>
   📜
   🧪 
@@ -49,6 +50,7 @@ padLines(`
 `.trim())
         }
       </pre>
+      </div>
     </div>
   </Slide>
 )

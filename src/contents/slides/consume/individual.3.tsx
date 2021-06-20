@@ -23,8 +23,7 @@ const product = (
 console.log({ product })
       `.trim()}</pre>
     </div>
-    <hr />
-    <div>
+    <div class="state-output">
       <pre class="code">
         {`
 {
@@ -38,7 +37,6 @@ console.log({ product })
   }
 }
       `.trim()}</pre>
-
     </div>
   </Slide>
 )

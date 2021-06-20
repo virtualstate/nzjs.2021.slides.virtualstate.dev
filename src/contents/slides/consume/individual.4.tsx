@@ -25,8 +25,7 @@ for await (const children of product.children) {
 }
       `.trim()}</pre>
     </div>
-    <hr />
-    <div>
+    <div class="state-output">
       <pre class="code">
         {`
 {
