@@ -8,6 +8,8 @@ export const BitsUnion = (
     <div class="row center">
       <pre class="code">{_804_ExampleInformation.cleanerSource.split("\n").slice(3, 18).join("\n").trim()}</pre>
       <pre class="code">{_804_ExampleInformation.cleanerSource.split("\n").slice(18).join("\n").trim()}</pre>
+    </div>
+    <div class="row">
       <div class="state-output">
         <pre class="code lines">
           {padLines(`
