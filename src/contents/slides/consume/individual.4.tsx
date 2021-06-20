@@ -12,7 +12,7 @@ const product = (
     sku="🐦"
   >
     <brand 
-      name="🔮 Magic Hairstyles"
+      name="🔮 Magic hairstyles"
     />
   </product>
 );
@@ -33,7 +33,7 @@ for await (const children of product.children) {
     {
       source: "brand",
       options: {
-        name: "🔮 Magic Hairstyles"
+        name: "🔮 Magic hairstyles"
       }
     }
   ]

@@ -15,7 +15,7 @@ export const ConsumeIndividual1 = (
       <pre class="code">
         {`
 <brand 
-  name="🔮 Magic Hairstyles"
+  name="🔮 Magic hairstyles"
 />`.trim()}
       </pre>
       <pre class="code">
@@ -25,7 +25,7 @@ export const ConsumeIndividual1 = (
   sku="🐦"
 >
   <brand 
-    name="🔮 Magic Hairstyles"
+    name="🔮 Magic hairstyles"
    />
 </product>
 `.trim()}
