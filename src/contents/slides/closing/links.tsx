@@ -5,7 +5,7 @@ export const ClosingLinks = (
   <Slide index={9001.4} id="closing-links" class="closing-links">
     <a href="https://virtualstate.dev" target="_blank" rel="noopener noreferrer">
       <h1>
-        <img src="/link.svg" />
+        <img src="/logo.svg" />
         <span>virtualstate.dev</span>
       </h1>
     </a>

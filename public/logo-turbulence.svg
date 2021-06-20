@@ -111,7 +111,7 @@
   0% {
   stroke-dasharray: 20, 5;
   stroke-width: 3px;
-  opacity: 0.2;
+  opacity: 0.5;
   }
   25% {
   stroke-dasharray: 5, 10;
@@ -123,16 +123,6 @@
   stroke-width: 2px;
   opacity: 0.8;
   }
-  65% {
-  stroke-dasharray: 5, 10;
-  stroke-width: 1x;
-  opacity: 0.4;
-  }
-  70% {
-  stroke-dasharray: 5, 10;
-  stroke-width: 1x;
-  opacity: 0.05;
-  }
   100% {
   stroke-dasharray: 10, 2;
   stroke-width: 20px;
@@ -140,8 +130,13 @@
   }
   }
 </style>
-<g class="spin">
-  <circle cx="159" cy="159" r="154" class="background" fill="green" />
+  <filter id="displacementFilter">
+    <feTurbulence type="turbulence" baseFrequency=".00137"
+                  numOctaves="100" result="turbulence"/>
+    <feDisplacementMap in2="turbulence" in="SourceGraphic"
+                       scale="20" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+<g class="spin" style="filter: url(#displacementFilter)">
   <line x1="249" y1="259" x2="159" y2="159" class="fragment-edge" stroke="black" />
   <line x1="69" y1="259" x2="159" y2="159" class="fragment-edge" stroke="black" />
   <line x2="69" y2="59" x1="159" y1="159" class="direct-edge" stroke="black" />
