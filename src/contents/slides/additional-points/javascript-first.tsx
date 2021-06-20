@@ -7,6 +7,7 @@ export const AdditionalTypeScript = (
       {`
 {
   "name": "@virtualstate/x",
+  "type": "module",
   "types": "./lib/index.d.ts",
   "devDependencies": {
     "typescript": "^4.2.3",
