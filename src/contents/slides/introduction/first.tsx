@@ -12,5 +12,8 @@ export const IntroductionFirst = (
         <img src="/contact-rainbow.png" width={290} />
       </div>
     </div>
+    <div class="nzjscon">
+      nz.js(con); 2021
+    </div>
   </Slide>
 )

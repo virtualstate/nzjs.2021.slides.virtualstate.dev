@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@virtualstate/dom": "^2.14.5",
-    "@virtualstate/examples": "^2.14.5",
+    "@virtualstate/examples": "^2.14.7",
     "@virtualstate/fringe": "^2.14.5",
     "@virtualstate/hooks": "^2.14.5",
     "@virtualstate/hooks-extended": "^2.14.5",

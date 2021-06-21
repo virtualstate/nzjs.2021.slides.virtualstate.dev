@@ -137,10 +137,10 @@
     iterable "^5.6.0"
     microtask-collector "^3.1.0"
 
-"@virtualstate/examples@^2.14.5":
-  version "2.14.5"
-  resolved "https://registry.npmjs.org/@virtualstate/examples/-/examples-2.14.5.tgz#bd87b75c48ab54e85e27c6a37f26abebb833bb7a"
-  integrity sha512-wbqv1odLf2rCJwq7xwlv9M4GXRK8ykg1XdfSU3nvz+dCEz94uobz0r8r+hkVJTUUPI+dkXFBN3XnlQSp9jVYdw==
+"@virtualstate/examples@^2.14.7":
+  version "2.14.7"
+  resolved "https://registry.npmjs.org/@virtualstate/examples/-/examples-2.14.7.tgz#8c781c93885b9985a4ca3484255b270294d29788"
+  integrity sha512-daxL9cgC+1A6GbzafqR84Gpj27cQZijMIVOP9lVMAALfL+mw6zugZxGtpZyWfabagxTTbIw1e1T3m4ghMogdaw==
   dependencies:
     "@virtualstate/fringe" "^2.14.5"
     "@virtualstate/hooks" "^2.14.5"

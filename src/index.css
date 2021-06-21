@@ -227,8 +227,7 @@ h1 {
   padding: 2em;
   border: 2px dashed black;
   border-radius: 1em;
-  background:
-          linear-gradient(90deg, rgba(95, 224, 236, 0.1) 10%, rgba(95, 224, 236, 0.1) 20%, rgba(95, 224, 236, 0.3) 50%, rgba(95, 224, 236, 0.2) 100%),
+  background: linear-gradient(104deg, rgba(95, 224, 236, 0.1) 10%, rgba(95, 224, 236, 0.1) 20%, rgba(95, 224, 236, 0.3) 50%, rgba(95, 224, 236, 0.2) 100%),
           linear-gradient(-9deg, rgba(95, 224, 236, 0.3) 25%, rgba(95, 224, 236, 0.1) 20%, rgba(95, 224, 236, 0.3) 50%, rgba(95, 224, 236, 0.2) 100%);
 }
 
@@ -354,4 +353,14 @@ main + main {
   background:
     linear-gradient(90deg, rgba(95, 224, 236, 0.1) 10%, rgba(95, 224, 236, 0.1) 20%, rgba(95, 224, 236, 0.3) 50%, rgba(95, 224, 236, 0.2) 100%),
     linear-gradient(-9deg, rgba(95, 224, 236, 0.3) 25%, rgba(95, 224, 236, 0.1) 20%, rgba(95, 224, 236, 0.3) 50%, rgba(95, 224, 236, 0.2) 100%);
+}
+
+.nzjscon {
+  display: block;
+  position: absolute;
+  bottom: 3em;
+  right: 3em;
+  background: #f0db4f;
+  border-radius: .5em;
+  padding: 1em;
 }
